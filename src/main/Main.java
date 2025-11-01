@@ -58,12 +58,12 @@ public class Main {
     /**
      * The program name and commit version.
      */
-    public static final String PROGRAM = "beagle.6c426f.jar";
+    public static final String PROGRAM = "beagle.__REV__.jar";
 
     /**
      * The command to invoke the program.
      */
-    public static final String COMMAND = "java -jar beagle.6c426f.jar";
+    public static final String COMMAND = "java -jar beagle.__REV__.jar";
 
     /**
      * The copyright string.
