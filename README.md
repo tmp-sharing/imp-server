@@ -1,6 +1,6 @@
 # imp-server
 
-This archival repository does not contain the Beagle software release.  The
+This archival repository does not contain the current Beagle software.  The
 current Beagle release can be obtained from
 [Beagle 5.5 web page](https://faculty.washington.edu/browning/beagle/beagle.html).
 
