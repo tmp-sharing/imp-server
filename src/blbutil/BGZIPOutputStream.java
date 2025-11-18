@@ -233,9 +233,7 @@ public final class BGZIPOutputStream extends OutputStream {
 
     @Override
     public void flush() throws IOException {
-        if (iSize > 0) {
-            compressAndFlushBuffer();
-        }
+        compressAndFlushBuffer();
         os.flush();
     }
 

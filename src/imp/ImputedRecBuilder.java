@@ -324,9 +324,7 @@ public final class ImputedRecBuilder {
             float meanTerm = sum*sum/(nInputTargHaps);
             float num = (sum2 - meanTerm);
             float den = (sum - meanTerm);
-            float threshold = 0.001f;
-            boolean alProbsBounded = Math.min(sum, (nInputTargHaps - sum)) < threshold;
-            return ((num <= 0) || alProbsBounded) ? 0f : (num/den);
+            return num <= 0 ? 0f : num/den;
         }
     }
 
